@@ -35,11 +35,9 @@
 	height: 3em;
 	width: 3em;
 }
-/*.carousel .carousel-inner div img{
-	height: 80vh;
-}*/
 #home, #about_us, #quality, #contactus, #blogs{
 	padding-top: 4em;
+	padding-left: 4em;
 }
 
 #blogs .pading-top-2em{
@@ -47,6 +45,5 @@
 }
 
 #about_us p{
-	/*padding-left: 14em;*/
     font-size: 124%;
 }
