@@ -13,7 +13,7 @@
         <!-- Navigation start -->
         <nav id="main_navigation_panel" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: greenyellow; height: 4em;">
             <a class="navbar-brand" href="#home">
-            	<img class="main_logo" src="images/logo.png">
+            	<img class="main_logo" src="images/logoSQE.png" alt="Shree Quality Exports">
             	Shree Quality Exports 
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,6 @@
             </button>
             <div class="collapse navbar-collapse" style="background-color: greenyellow;" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
                     <a class="nav-item nav-link" href="#about_us">About Us</a>
                     <a class="nav-item nav-link" href="#quality">Quality</a>
                     <a class="nav-item nav-link" href="#blogs">Blogs</a>
@@ -30,9 +29,9 @@
             </div>
         </nav>
         <!-- Navigation end -->
-        <div data-spy="scroll" data-target="#main_navigation_panel" data-offset="0" class="scrollspy-example">
+        <div data-spy="scroll" data-target="#main_navigation_panel" data-offset="0" class="scrollspy-example row justify-content-around">
             <!-- Carousel start-->
-            <div id="home" class="carousel slide" data-ride="carousel">
+            <div id="home" class="col-sm-9 carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#home" data-slide-to="0" class="active"></li>
                     <li data-target="#home" data-slide-to="1"></li>
@@ -163,7 +162,7 @@
 				    			<p class="card-text">
 				    				One fruit that has been intriguing modern generation for its variety of benefits is definitely Banana. Here are top five reasons to make this fruit a part of your regular diet.
 				    			</p>
-				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blogModalLetsGo">
   									Read More...
 								</button>
 				  			</div>
@@ -171,7 +170,7 @@
         			</div>
 
 
-        			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        			<div class="modal fade" id="blogModalLetsGo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 					  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 					      <div class="modal-header">
@@ -195,12 +194,29 @@
 				    			<p class="card-text">
 				    				Think about all the munching you have done in last one week. Grabbing a chocolate bar while walking down the store aisle or having a bucket of popcorn while binging on Netflix.
 				    			</p>
-				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blogModalChips">
   									Read More...
 								</button>
 				  			</div>
 						</div>
         			</div>
+        			<div class="modal fade" id="blogModalChips" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">Top 5 reasons to indulge in this fruit</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+							<div w3-include-html="./blogs/chips/banana-chips-revolution.html"></div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
         		</div>
         	</div>
         	<!-- Blogs end -->
@@ -237,6 +253,9 @@
     <script src="./js/w3.js"></script>
     <script>
 		w3.includeHTML();
+		$('.carousel').carousel({
+		  interval: 2000
+		})
 	</script>
 </body>
 

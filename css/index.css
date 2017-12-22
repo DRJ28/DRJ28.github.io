@@ -2,8 +2,18 @@
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (max-width: 575px) { 
 
+	.carousel .carousel-inner div img{
+		height: 40vh;
+	}
+
+}
+
+@media (min-width: 576px) {
+	.carousel .carousel-inner div img{
+		height: 80vh;
+	}	
 }
 
 // Medium devices (tablets, 768px and up)
@@ -25,9 +35,9 @@
 	height: 3em;
 	width: 3em;
 }
-.carousel .carousel-inner div img{
+/*.carousel .carousel-inner div img{
 	height: 80vh;
-}
+}*/
 #home, #about_us, #quality, #contactus, #blogs{
 	padding-top: 4em;
 }
