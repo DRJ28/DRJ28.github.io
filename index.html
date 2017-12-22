@@ -18,7 +18,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" style="background-color: greenyellow;" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
                     <a class="nav-item nav-link" href="#about_us">About Us</a>
@@ -155,16 +155,15 @@
         	<div id="blogs">
         		<h1>Blogs</h1>
         		<div class="row justify-content-around">
-        			<div class="col-4">
-        				<div class="card" style="width: 20rem;">
-				  			<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-8 col-8 pading-top-2em">
+        				<div class="card">
 				  			<div class="card-body">
-				    			<h4 class="card-title">Card title</h4>
-				    			<div w3-include-html="./blogs/letsGo.html"></div>
-				    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    			<!-- <a href="#" class="btn btn-primary">Read More..</a> -->
+				    			<h4 class="card-title">Top 5 reasons to indulge in this fruit</h4>
+				    			<p class="card-text">
+				    				One fruit that has been intriguing modern generation for its variety of benefits is definitely Banana. Here are top five reasons to make this fruit a part of your regular diet.
+				    			</p>
 				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-  									Read More
+  									Read More...
 								</button>
 				  			</div>
 						</div>
@@ -172,33 +171,32 @@
 
 
         			<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div w3-include-html="./blogs/letsGo.html"></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">Top 5 reasons to indulge in this fruit</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+							<div w3-include-html="./blogs/letsGo/letsGo.html"></div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 
 
-        			<div class="col-4">
-        				<div class="card" style="width: 20rem;">
-				  			<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+        			<div class="col-xl-4 col-lg-4 col-md-5 col-sm-8 col-8 pading-top-2em">
+        				<div class="card">
 				  			<div class="card-body">
-				    			<h4 class="card-title">Card title</h4>
-				    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    			<a href="#" class="btn btn-primary">Go somewhere</a>
+				    			<h4 class="card-title">A new Revolution in Snacking industry?</h4>
+				    			<p class="card-text">
+				    				Think about all the munching you have done in last one week. Grabbing a chocolate bar while walking down the store aisle or having a bucket of popcorn while binging on Netflix.
+				    			</p>
+				    			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  									Read More...
+								</button>
 				  			</div>
 						</div>
         			</div>

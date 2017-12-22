@@ -18,9 +18,7 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media all and (min-width: 1200px) { 
-	/*.img_screen_height{
-		height: 80vh;
-	}*/
+
 }
 
 .main_logo{
@@ -32,6 +30,10 @@
 }
 #home, #about_us, #quality, #contactus, #blogs{
 	padding-top: 4em;
+}
+
+#blogs .pading-top-2em{
+	padding-top: 2em;
 }
 
 #about_us p{
