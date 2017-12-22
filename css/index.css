@@ -1,0 +1,40 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media all and (min-width: 1200px) { 
+	/*.img_screen_height{
+		height: 80vh;
+	}*/
+}
+
+.main_logo{
+	height: 3em;
+	width: 3em;
+}
+.carousel .carousel-inner div img{
+	height: 80vh;
+}
+#home, #about_us, #quality, #contactus, #blogs{
+	padding-top: 4em;
+}
+
+#about_us p{
+	/*padding-left: 14em;*/
+    font-size: 124%;
+}
