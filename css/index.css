@@ -40,6 +40,15 @@
 	padding-left: 4em;
 }
 
+#about_us div.aboutContent{
+	background: url("../images/aboutUs1.png") no-repeat;
+	color: #fff;
+}
+
+#about_us div.aboutContent h1, div.flavorsContent h1{
+	text-align: center;
+}
+
 #blogs .pading-top-2em{
 	padding-top: 2em;
 }
@@ -61,4 +70,60 @@
  body {
     font-family: 'Josefin Slab', serif;
     /*font-size: 1.5em;*/
+}
+
+
+
+
+
+
+
+/* Container holding the image and the text */
+.flavorsContent .container {
+    position: relative;
+    /*text-align: center;*/
+    color: white;
+    width: 100%;
+    height: 80vh;
+}
+.flavorsContent img{
+	width: 8em;
+}
+/* Bottom left text */
+.bottom-left {/*mint*/
+    position: absolute;
+    bottom: 0vh;
+    left: 20%;
+}
+
+/* Top left text */
+.top-left {/*tomato*/
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+}
+.top-center{/*salt*/
+	position: absolute;
+	top: 5vh;
+	left: 45%;
+}
+/* Top right text */
+.top-right {/*black pepper*/
+    position: absolute;
+    top: 20vh;
+    right: 10%;
+}
+
+/* Bottom right text */
+.bottom-right {/*chilly*/
+    position: absolute;
+    bottom: 0vh;
+    right: 20%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 40vh;
+    left: 45%;
 }
