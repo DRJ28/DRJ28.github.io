@@ -20,11 +20,60 @@
 		background: url("../images/aboutUs1.png") snow;
 		color: #fff;
 	}
+	#quality div.qualityContent{
+		background: url("../images/quality.jpg") snow;
+		color: #fff;	
+	}
+	#quality div.packagingContent{
+		background: url("../images/delivery.jpg") snow;
+		color: #fff;		
+	}
+	#quality div.deliveryContent{
+		background: url("../images/pack_deliver.jpg") snow;
+		color: #fff;	
+	}
+	#quality div.traceContent{
+		background: url("../images/traceability_back.jpeg") no-repeat;
+		color: #fff;	
+		min-height: 50vh;	
+	}
+	.posi_top_3em{
+		position: relative;
+		top: 1em;
+	}
 }
 @media (min-width: 565px) {
+	.traceContent img, .deliveryContent img, .packagingContent img{
+		width: 99%;
+	}
+	.posi_top_3em{
+		position: relative;
+		top: 3em;
+	}
 	#about_us div.aboutContent{
 		background: url("../images/aboutUs1.png") no-repeat;
 		color: #fff;
+		min-height: 50vh;
+	}
+	#quality div.qualityContent{
+		background: url("../images/quality.jpg") no-repeat;
+		color: #fff;	
+		min-height: 50vh;
+	}
+	#quality div.packagingContent{
+		background: url("../images/delivery.jpg") no-repeat;
+		color: #fff;	
+		min-height: 50vh;	
+	}
+	#quality div.deliveryContent{
+		background: url("../images/pack_deliver.jpg") no-repeat;
+		color: #fff;	
+		min-height: 50vh;
+	}
+	#quality div.traceContent{
+		background: url("../images/traceability_back.jpeg") no-repeat;
+		color: #fff;	
+		min-height: 50vh;	
 	}
 }
 .main_logo{
@@ -37,15 +86,17 @@
 }
 
 
-#about_us div.aboutContent h1, div.flavorsContent h1{
+#about_us div.aboutContent h1, div.flavorsContent h1, div.qualityContent h1, div.packagingContent h1{
 	text-align: center;
 }
 
 #blogs .pading-top-2em{
 	padding-top: 2em;
 }
-
-#about_us p{
+.margin-top-2em{
+	margin-top: 2em;
+}
+#about_us p, #quality p{
     font-size: 124%;
 }
 
