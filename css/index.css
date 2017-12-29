@@ -86,7 +86,7 @@
 }
 
 
-#about_us div.aboutContent h1, div.flavorsContent h1, div.qualityContent h1, div.packagingContent h1{
+#about_us div.aboutContent h1, div.flavorsContent h1, div.qualityContent h1, div.packagingContent h1, #contactus h1, #blogs h1{
 	text-align: center;
 }
 
@@ -103,7 +103,7 @@
 #contactus{
 	margin-top: 4em;
 	min-height: 80vh;
-	color: #fff;
+	color: #000;
 	background: url("../images/bananaContact.jpg") no-repeat; 
 }
 .contactusSocial img{
