@@ -1,0 +1,99 @@
+@media (max-width: 610px) {
+    .flavorsContent .container {
+        position: relative;
+        color: white;
+        width: 100%;
+        height: 80vh;
+    }
+    .flavorsContent img {
+        width: 8em;
+    }
+    .top-left {
+        /*tomato*/
+        position: absolute;
+        top: 25vh;
+        left: 15%;
+    }
+    .top-center {
+        /*salt*/
+        position: absolute;
+        top: 5vh;
+        left: 40%;
+    }
+    /* Top right text */
+    .top-right {
+        /*black pepper*/
+        position: absolute;
+        top: 25vh;
+        right: 10%;
+    }
+    .bottom-left {
+        /*mint*/
+        position: absolute;
+        bottom: 0vh;
+        left: 15%;
+    }
+    .bottom-right {
+        /*chilly*/
+        position: absolute;
+        bottom: 0vh;
+        right: 10%;
+    }
+    /* Centered text */
+    .centered {
+        display: none;
+    }
+}
+
+@media (min-width: 611px) {
+    .flavorsContent .container {
+        position: relative;
+        /*text-align: center;*/
+        color: white;
+        width: 100%;
+        height: 80vh;
+    }
+    .flavorsContent img {
+        width: 8em;
+    }
+    /* Bottom left text */
+    .bottom-left {
+        /*mint*/
+        position: absolute;
+        bottom: 0vh;
+        left: 20%;
+    }
+    /* Top left text */
+    .top-left {
+        /*tomato*/
+        position: absolute;
+        top: 20vh;
+        left: 10%;
+    }
+    .top-center {
+        /*salt*/
+        position: absolute;
+        top: 5vh;
+        left: 45%;
+    }
+    /* Top right text */
+    .top-right {
+        /*black pepper*/
+        position: absolute;
+        top: 20vh;
+        right: 10%;
+    }
+    /* Bottom right text */
+    .bottom-right {
+        /*chilly*/
+        position: absolute;
+        bottom: 0vh;
+        right: 20%;
+    }
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 40vh;
+        left: 45%;
+    }
+}
