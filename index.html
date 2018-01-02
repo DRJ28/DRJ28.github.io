@@ -28,13 +28,35 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" style="background: linear-gradient(greenyellow, white);" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#about_us">About</a>
+                            <a class="dropdown-item" href="#banana_chips">Banana Chips</a>
+                            <a class="dropdown-item" href="#banana_flavours">Flavours</a>
+                        </div>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#quality">Quality</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#blogs">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
+                  </li>
+                </ul>
+                <!-- <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#about_us">About Us</a>
                     <a class="nav-item nav-link" href="#quality">Quality</a>
                     <a class="nav-item nav-link" href="#blogs">Blogs</a>
                     <a class="nav-item nav-link" href="#contactus">Contact Us</a>
-                </div>
+                </div> -->
             </div>
         </nav>
         <!-- Navigation end -->
@@ -93,7 +115,7 @@
 	            		</p>
 	            	</div>
             	</div>
-            	<h1>Banana Chips</h1>
+            	<h1 class="headingCenter pading-top-2em" id="banana_chips">Banana Chips</h1>
             	<div class="row justify-content-around">
             		<div class="col-10">
             			<p>
@@ -112,10 +134,10 @@
             		</div>
             	</div>
             	<!-- <h1>Flavours</h1> -->
-            	<div class="row justify-content-xl-around flavorsContent">
+            	<div class="row justify-content-xl-around flavorsContent padding-top-4em" id="banana_flavours">
                     <div class="col-12">
                         <h1>Flavours</h1>
-                        <p>Currently we offer Banana chips in five flavors:</p>
+                        <p class="headingCenter">Currently we offer Banana chips in five flavors:</p>
                         <div class="container">
                           <!-- <img src="./images/aboutUs1.png" alt="Norway" style="width:100%;"> -->
                           <div class="bottom-left" title="Mint Flavor">
@@ -161,10 +183,10 @@
                     <div class="col-12 posi_top_3em">
                         <h1>Packaging</h1>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-xl-2 col-md-2 col-sm-2">
                         <img src="./images/packing.png" alt="packaging" title="Banana chips packs">
                     </div>
-                    <div class="col-8 posi_top_3em">
+                    <div class="col-10 col-xl-10 col-md-10 col-sm-10">
                         <p>
                             The packaging is customized according to the customer requirement. The smaller packets ranging from size of 10g to 1000g (as per customer demand) are packed in bulk in corrugated boxes for the purpose of shipment. 
                         </p>
@@ -175,11 +197,13 @@
                 </div>
 
                 <div class="row justify-content-around deliveryContent margin-top-2em">
-                    <div class="col-2 posi_top_3em">
-                        <img src="./images/delivery_truck.png" alt="packaging" title="Banana chips delivery">
-                        <h5>On-Time delivery</h5>
+                    <div class="col-12 posi_top_3em">
+                        <h1>On-Time delivery</h1>
                     </div>
-                    <div class="col-8 posi_top_3em">
+                    <div class="col-2 col-xl-2 col-md-2 col-sm-2 posi_top_3em">
+                        <img src="./images/delivery_truck.png" alt="packaging" title="Banana chips delivery">
+                    </div>
+                    <div class="col-10 col-xl-10 col-md-10 col-sm-10 posi_top_3em">
                         <p>
                             We ensure that we stick to the delivery schedule provided by the customer. The lead time for delivery varies with the customer location. However for incoterm FOB Mumbai port, the production and delivery lead time is 15 days for 500 kg of banana chips.
                         </p>
@@ -190,11 +214,10 @@
                     <div class="col-12 posi_top_3em">
                         <h1>Traceability</h1>
                     </div>
-                    <div class="col-2 posi_top_3em">
+                    <div class="col-2 col-xl-2 col-md-2 col-sm-2">
                         <img src="./images/traceability.png" alt="packaging" title="Banana chips traceability">
-                        <!-- <h5>Traceability</h5> -->
                     </div>
-                    <div class="col-8 posi_top_3em">
+                    <div class="col-10 col-xl-10 col-md-10 col-sm-10 pading-top-2em">
                         <p>
                             We provide batch codes to every batch of production along with date of manufacture to have easy traceability for the quality of banana chips. 
                         </p>
@@ -242,6 +265,9 @@
                             </a>
                             <a href="https://www.facebook.com/Shreequalityexports/" target="_blank">
                                 <img src="./images/fb.png" alt="facebook" title="facebook">
+                            </a>
+                            <a href="https://plus.google.com/105807432676175269384" target="_blank">
+                                <img src="./images/google.png" alt="google_plus" title="google plus">
                             </a>
     	            	</div>
                 	<!-- </div> -->
