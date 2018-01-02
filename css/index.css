@@ -2,18 +2,7 @@
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 575px) { 
-	.carousel .carousel-inner div img{
-		height: 40vh;
-	}
 
-}
-
-@media (min-width: 576px) {
-	.carousel .carousel-inner div img{
-		height: 80vh;
-	}	
-}
 
 @media (max-width: 564px) {
 	#about_us div.aboutContent{
@@ -82,9 +71,10 @@
 }
 #home, #about_us, #quality, #contactus, #blogs{
 	padding-top: 4em;
+}
+#about_us, #quality, #contactus, #blogs {
 	padding-left: 4em;
 }
-
 
 #about_us div.aboutContent h1, div.flavorsContent h1, div.qualityContent h1, div.packagingContent h1, #contactus h1, #blogs h1{
 	text-align: center;
