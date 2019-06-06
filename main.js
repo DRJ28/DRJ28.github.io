@@ -161,7 +161,7 @@ var AppComponent = /** @class */ (function () {
         };
         var url = 'https://drj28.github.io/event.json';
         if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
-            url = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].siteUrl + 'event.json';
+            url = _environments_environment_prod__WEBPACK_IMPORTED_MODULE_3__["environment"].siteUrl + 'assets/event.json';
         }
         this.http.get(url).subscribe(function (data) {
             console.log(data);
