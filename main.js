@@ -165,7 +165,7 @@ var AppComponent = /** @class */ (function () {
         }
         this.http.get(url).subscribe(function (data) {
             console.log(data);
-            _this.eventList = data.Statement;
+            _this.eventList = data.events;
         }, function (error) {
             console.log(error);
         });
